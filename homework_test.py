@@ -1,3 +1,7 @@
+from math import pi
+from random import randint
+
+
 def test_greeting():
     """
     Напишите программу, которая выводит на экран приветствие.
@@ -32,7 +36,6 @@ def test_rectangle():
 
 
 def test_circle():
-    from math import pi
     """
     Напишите программу, которая берет радиус круга и выводит на экран его длину и площадь.
     Используйте константу PI
@@ -53,7 +56,6 @@ def test_circle():
 
 
 def test_random_list():
-    from random import randint
     """
     Создайте список из 10 случайных чисел от 1 до 100 и отсортируйте его по возрастанию.
     """
